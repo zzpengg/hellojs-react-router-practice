@@ -9,7 +9,11 @@ export class App extends React.Component {
       <div>
         React Example
         <div>
-          
+
+          <button className='btn btn-success'><Link to='/counter' >counter</Link></button>
+
+          <button className='btn btn-success'><Link to='/about' >about</Link></button>
+
         </div>
         {this.props.children}
       </div>
