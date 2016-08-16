@@ -4,14 +4,14 @@ export default class Todo extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.props.onDelClick}>X</button>
-      <li onClick={this.props.onTodoClick}
-        style={{
-          textDecoration: this.props.completed ? 'line-through' : 'none',
-          cursor: this.props.completed ? 'default' : 'pointer'
-        }}>
-        {this.props.text}
-      </li>
+        <li onClick={this.props.onTodoClick}
+          style={{
+            textDecoration: this.props.completed ? 'line-through' : 'none',
+            cursor: this.props.completed ? 'default' : 'pointer'
+          }}>
+          {this.props.text}
+          <button onClick={this.props.onDelClick}>X</button>
+        </li>
       </div>
     )
   }

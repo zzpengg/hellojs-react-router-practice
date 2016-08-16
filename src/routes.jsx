@@ -9,7 +9,7 @@ export default (
   <Route path="/" component={App}>
     <IndexRoute component={CounterPage}/>
     <Route path="counter" component={CounterPage}/>
-    <Route path="about/:name" component={AboutPage}/>
+    <Route path="about" component={AboutPage}/>
     <Route path="todo" component={TodoPage}/>
     {/*<Route path="about/:name" component={AboutPage}/>*/}
     {/* when you add /:name the url will become localhost:port/about/anyname */}

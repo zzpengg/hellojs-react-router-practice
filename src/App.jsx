@@ -12,7 +12,7 @@ export class App extends React.Component {
           <Link to='/counter'>
             <button> Counter Page</button>
           </Link>
-          <Link to='/about/corn'>
+          <Link to='/about'>
             <button> About Page</button>
           </Link>
           <Link to='/todo'>
